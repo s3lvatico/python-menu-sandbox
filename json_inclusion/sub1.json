@@ -1,0 +1,31 @@
+[
+   {
+      "label": "1-1",
+      "item_type": "command"
+   },
+   {
+      "label": "3-0",
+      "item_type": "menu",
+      "items": [
+         {
+            "label": "3-1",
+            "item_type": "command"
+         },
+         {
+            "label": "3-2",
+            "item_type": "command"
+         }
+      ]
+   },
+   {
+      "label": "1-2",
+      "item_type": "command"
+   },
+   {
+      "label": "2-0",
+      "item_type": "menu",
+      "items": {
+         "include": "sub2.json"
+      }
+   }
+]

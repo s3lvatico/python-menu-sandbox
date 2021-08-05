@@ -5,7 +5,7 @@ Mi servono per simulare elementi terminali della struttura ad albero del menu
 """
 
 
-def root_of_2(): -> None
+def root_of_2() -> None:
     """Stampa la radice di 2"""
     print(str(2**.5))
 

@@ -1,0 +1,7 @@
+{
+   "label": "Main",
+   "item_type": "menu",
+   "items": {
+      "include": "sub1.json"
+   }
+}

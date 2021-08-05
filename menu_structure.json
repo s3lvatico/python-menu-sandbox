@@ -1,0 +1,59 @@
+{
+   "label": "Main Menu",
+   "type": "menu",
+   "items": [
+      {
+         "label": "Greetings",
+         "type": "menu",
+         "items": [
+            {
+               "label": "Hello",
+               "type": "item",
+               "command": "functions.say_hello"
+            },
+            {
+               "label": "Goodbye",
+               "type": "item",
+               "command": "functions.say_bye"
+            },
+            {
+               "label": "Italian slurs",
+               "type": "menu",
+               "items": [
+                  {
+                     "label": "Fagiano",
+                     "type": "item",
+                     "command": "functions.fagiano"
+                  },
+                  {
+                     "label": "Maiale",
+                     "type": "item",
+                     "command": "functions.maiale"
+                  },
+                  {
+                     "label": "Tacchino",
+                     "type": "item",
+                     "command": "functions.tacchino"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "label": "Maths",
+         "type": "menu",
+         "items": [
+            {
+               "label": "Square root of 2",
+               "type": "item",
+               "command": "functions.root_of_2"
+            }
+         ]
+      },
+      {
+         "label": "Quit program",
+         "type": "item",
+         "command": "exit"
+      }
+   ]
+}
